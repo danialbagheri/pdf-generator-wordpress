@@ -1,0 +1,12 @@
+{
+    "name": "ehsanfazeli/pdf-generator",
+    "require": {
+        "dompdf/dompdf": "^0.8.3"
+    },
+    "authors": [
+        {
+            "name": "Ehsan Fazeli",
+            "email": "fa.ehsan@gmail.com"
+        }
+    ]
+}

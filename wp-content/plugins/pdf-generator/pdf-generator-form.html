@@ -1,0 +1,11 @@
+<h2>Responsible pharmacist notice</h2>
+<form method="GET" action="/pdf-generator">
+	<div class="form-item form-item-name form-type-textfield form-group"> <label class="control-label" for="edit-name">Pharmacist name <span class="form-required" title="This field is required.">(This is required.)</span></label>
+	<input class="form-control form-text required" type="text" id="edit-name" name="pname" value="" size="40" maxlength="60"><div class="help-block">The name of the responsible pharmacist (maximum 60 characters)</div></div>
+	<div class="form-item form-item-number form-type-textfield form-group"> <label class="control-label" for="edit-number">Pharmacist's registration number <span class="form-required" title="This field is required.">(This is required.)</span></label>
+<input class="form-control form-text required" type="text" id="edit-number" name="pnumber" value="" size="10" maxlength="10"></div>
+<div class="form-item form-item-style form-type-radios form-group"><div id="edit-style" class="form-radios"><div class="form-item form-item-style form-type-radio radio"> <label class="control-label" for="edit-style-0"><input type="radio" id="edit-style-0" name="style" value="0" checked="checked" class="form-radio">Landscape</label>
+</div><div class="form-item form-item-style form-type-radio radio"> <label class="control-label" for="edit-style-1"><input type="radio" id="edit-style-1" name="pstyle" value="1" class="form-radio">Portrait</label>
+</div></div><div class="help-block">Select the style for your generated PDF.</div></div>
+<button type="submit" id="edit-submit-button" name="op" value="Generate notice" class="btn btn-default form-submit">Generate notice</button>
+</form>
