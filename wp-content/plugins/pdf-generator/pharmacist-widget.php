@@ -29,8 +29,7 @@ class PdfGeneratorWidget extends WP_Widget
 	{
 		$title = apply_filters( 'widget_title', $instance['title'] );
 		 
-		$form = include(__DIR__.'/pdf-generator-form.html');
-		echo $form;
+		include(__DIR__.'/pdf-generator-form.html');
 	}
 	     
 	// Updating widget replacing old instances with new

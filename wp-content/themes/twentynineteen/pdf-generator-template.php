@@ -74,6 +74,6 @@ use Dompdf\Dompdf;
     }
     $html2pdf = new Dompdf();
     $html2pdf->loadHtml($content);
-    $html2pdf->setPaper('letter', 'landscape');
+    $html2pdf->setPaper('letter', $style);
     $html2pdf->render();
     $html2pdf->stream(strtotime('now').'.pdf');
